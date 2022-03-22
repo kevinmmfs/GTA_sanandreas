@@ -1,0 +1,84 @@
+
+	body{
+		background-image: url(https://viciados.net/wp-content/uploads/2021/10/GTA-San-Andreas-2021-Rockstar-Games-The-Definitive-Edition-1000x600.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+
+	h2{
+		color: 	#F8F8FF;
+		-webkit-text-stroke: 1px #000000;
+	  text-stroke: 1px #000000;
+	}
+
+	h3{
+		color: yellow;
+		width: 100px;
+		height: 100px;
+		text-align: center;
+		font-size: 100px;
+		margin: 10%;
+  		text-shadow: 5px 5px 5px #000000;
+  		
+
+	}
+
+	h3:hover{
+		-moz-transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+
+	}
+
+	.bordado{
+		text-align: center;
+		border: 2px solid black;
+		font-family: fantasy;
+		overflow: hidden;
+		-moz-transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		transition: all 0.3s;
+		background-color: rgba(255, 255, 255, 0.3);
+		-webkit-backdrop-filter: blur(5px);
+  		backdrop-filter: blur(5px);
+	}
+
+	.bordado:hover{
+		-moz-transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+
+	.container_menor_esticado{
+		width: 150px;
+		height: 538px;
+		border: 3px solid black;
+
+	}
+
+	.container1{
+		text-align: center;
+		width: 420px;
+		height: 610px;
+		padding: 2%;
+		font-family: fantasy;
+
+	}
+
+	.container2{
+		width: 400px;
+		height: 600px;
+		border: 5px solid black ; 
+	}
+
+	.grid{
+		width: 100%;
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		grid-column-gap: 35px;
+		grid-row-gap: 35px;
+		justify-content: flex-start;
+
+	}
